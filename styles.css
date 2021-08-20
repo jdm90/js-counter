@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    font-family: monospace;
+}
+
+.content {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    text-align: center;
+    padding: 25px;
+}
+
+.content h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+#value {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 0 2px #999;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    font-size: 1em;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+.decrease:hover {
+    color: red;
+}
+
+.increase:hover{
+    color: green;
+}
